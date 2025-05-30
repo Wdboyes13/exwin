@@ -1,4 +1,4 @@
-# exwin.h - A header file any POSIX loving person needs  
+# exwin.h - A header file any person that prefers standards not pain   
 __Ever hated windows so much that you just want to exclude ALL windows users__  
 __Well, now you can.__  
 Just include copy exwin.h into your main directory  
