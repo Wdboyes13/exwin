@@ -1,3 +1,5 @@
+// Test file for exwin.h
+
 #define _WIN32
 #include "exwin.h"
 #include <stdio.h>

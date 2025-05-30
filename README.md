@@ -11,4 +11,4 @@ it'll forcibly exclude all windows users at runtime and it'll give
 GET OUTTT, Come back when you have a REAL OS
 Fatal Error: OS not liked by developer
 ```  
-If you wanna test, run `make test`
+If you wanna see the demo (On any system), run `make test`
