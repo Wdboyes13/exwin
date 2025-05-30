@@ -6,7 +6,7 @@ and add `#include "exwin.h"` to the top of whatever file
 and, also dont forget at the top of your `int main()` do `exwin();`  
 __  __  
 NOW, if its on windows (at compile time, cause `#ifdef _WIN32` is compile time stuff)   
-it'll give  
+it'll forcibly exclude all windows users at runtime and it'll give  
 ```
 GET OUTTT, Come back when you have a REAL OS
 Fatal Error: OS not liked by developer
