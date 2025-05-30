@@ -1,10 +1,13 @@
 #ifndef EXWIN_H
 #define EXWIN_H
 
-void exwin() {
+#include <stdio.h>
+#include <stdlib.h>
+
+static inline void exwin() {
 #ifdef _WIN32
-    printf("GET OUTTT, Come back when you have a REAL OS");
-    perror("OS not liked by developer: Fix - Switch your OS, or use a VM");
+    printf("GET OUTTT, Come back when you have a REAL OS\n");
+    printf("Fatal Error: OS not liked by developer\n");
     exit(1);
 #endif
 }
